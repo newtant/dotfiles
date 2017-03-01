@@ -1,0 +1,6 @@
+alias ls="ls -a --color=auto"
+alias ll="ls -al --color=auto"
+alias ..="cd .."
+alias vi="vim"
+alias dcss="crawl-tiles"
+alias deadbeef="/opt/deadbeef/bin/deadbeef"
