@@ -1,0 +1,16 @@
+! general config
+URxvt.urgentOnBell: true
+URxvt.cursorBlink: false
+URxvt.termName: rxvt-unicode-256color
+URxvt.scrollBar: false
+
+! font config
+URxvt.letterSpace: -3
+URxvt.font: xft:go:size=10
+URxvt.boldFont: xft:go:bold:size=10
+URxvt.italicFont: xft:go:size=10
+URxvt.boldItalicFont: xft:go:bold:size=10
+URxvt.imFont: xft:go:size=10
+
+! colors
+#include "/home/newtant/dotfiles/colors/urxvt"
