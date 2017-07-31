@@ -14,6 +14,7 @@ set showcmd
 set report=0
 set laststatus=2
 "set cursorline
+set background=dark
 
 " undo history between sessions
 set undofile
