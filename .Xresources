@@ -3,14 +3,23 @@ URxvt.urgentOnBell: true
 URxvt.cursorBlink: false
 URxvt.termName: rxvt-unicode-256color
 URxvt.scrollBar: false
+URxvt.savelines: 10000
 
 ! font config
 URxvt.letterSpace: -3
-URxvt.font: xft:go:size=10
-URxvt.boldFont: xft:go:bold:size=10
-URxvt.italicFont: xft:go:size=10
-URxvt.boldItalicFont: xft:go:bold:size=10
-URxvt.imFont: xft:go:size=10
+URxvt.font: xft:fira:size=10
+URxvt.boldFont: xft:fira:bold:size=10
+URxvt.italicFont: xft:fira:size=10
+URxvt.boldItalicFont: xft:fira:bold:size=10
+URxvt.imFont: xft:fira:size=10
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
+Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintslight
+Xft.lcdfilter: lcddefault
 
 ! colors
 #include "/home/newtant/dotfiles/colors/urxvt"
