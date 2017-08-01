@@ -3,15 +3,15 @@ URxvt.urgentOnBell: true
 URxvt.cursorBlink: false
 URxvt.termName: rxvt-unicode-256color
 URxvt.scrollBar: false
-URxvt.savelines: 10000
+URxvt.savelines: 11000
 
 ! font config
-URxvt.letterSpace: -3
-URxvt.font: xft:fira:size=10
-URxvt.boldFont: xft:fira:bold:size=10
-URxvt.italicFont: xft:fira:size=10
-URxvt.boldItalicFont: xft:fira:bold:size=10
-URxvt.imFont: xft:fira:size=10
+URxvt.letterSpace: -1
+URxvt.font: xft:fira:size=11
+URxvt.boldFont: xft:fira:bold:size=11
+URxvt.italicFont: xft:fira:size=11
+URxvt.boldItalicFont: xft:fira:bold:size=11
+URxvt.imFont: xft:fira:size=11
 
 Xft.dpi: 96
 Xft.antialias: true
