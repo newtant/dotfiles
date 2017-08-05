@@ -1,35 +1,35 @@
 ! special
 *.background: #212121
-*.foreground: #cccccc
+*.foreground: #e9e9e9
 
-! black and light black
+! black
 *.color0:     #666666
 *.color8:     #999999
 
-! red and light red
+! red
 *.color1:     #cc6699
 *.color9:     #ff99cc
 
-! green and light green
+! green
 *.color2:     #99cc66
 *.color10:    #ccff99
 
-! yellow and light yellow
+! yellow
 *.color3:     #cc9966
 *.color11:    #ffcc99
 
-! blue and light blue
+! blue
 *.color4:     #6699cc
 *.color12:    #99ccff
 
-! magenta and light magenta
+! magenta
 *.color5:     #9966cc
 *.color13:    #cc99ff
 
-! cyan and light cyan
+! cyan
 *.color6:     #66cc99
 *.color14:    #99ffcc
 
-! white and light white
+! white
 *.color7:     #cccccc
 *.color15:    #ffffff
