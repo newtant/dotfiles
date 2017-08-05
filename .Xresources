@@ -25,12 +25,4 @@ Xft.lcdfilter: lcddefault
 
 ! colors
 #include "/home/newtant/dotfiles/colors/urxvt"
-
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
-rofi.color-enabled: true
-rofi.color-window: #212121, #ccb080, #ccb080
-rofi.color-normal: #212121, #e9e9e9, #333333, #ccb080, #212121
-rofi.color-active: #212121, #819ccc, #333333, #819ccc, #e9e9e9
-rofi.color-urgent: #212121, #cc8b81, #333333, #cc8b81, #e9e9e9
+#include "/home/newtant/dotfiles/.rofi"
