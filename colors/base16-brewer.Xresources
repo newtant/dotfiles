@@ -1,7 +1,8 @@
 ! Base16 Brewer
 ! Scheme: Timothée Poisot (http://github.com/tpoisot)
 
-#define base00 #0c0d0e
+!#define base00 #0c0d0e
+#define base00 #212121
 #define base01 #2e2f30
 #define base02 #515253
 #define base03 #737475

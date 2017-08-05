@@ -9,11 +9,11 @@ URxvt*depth: 32
 
 ! font config
 !URxvt*letterSpace: -1
-URxvt*font: xft:Fira Mono:size=12
-URxvt*boldFont: xft:Fira Mono Mono:bold:size=12
-URxvt*italicFont: xft:Fira Mono:size=12
-URxvt*boldItalicFont: xft:Fira Mono:bold:size=12
-URxvt*imFont: xft:Fira Mono:size=12
+URxvt*font: xft:Fira Mono:size=11
+URxvt*boldFont: xft:Fira Mono:bold:size=11
+URxvt*italicFont: xft:Fira Mono:size=11
+URxvt*boldItalicFont: xft:Fira Mono:bold:size=11
+URxvt*imFont: xft:Fira Mono:size=11
 
 Xft.dpi: 96
 Xft.antialias: true

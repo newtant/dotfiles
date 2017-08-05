@@ -1,7 +1,8 @@
 ! Base16 Twilight
 ! Scheme: David Hart (https://github.com/hartbit)
 
-#define base00 #1e1e1e
+!#define base00 #1e1e1e
+#define base00 #212121
 #define base01 #323537
 #define base02 #464b50
 #define base03 #5f5a60
