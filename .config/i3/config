@@ -14,7 +14,7 @@ set $winkey Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:Fira Mono 11
+font pango:Fira Mono 12
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -27,7 +27,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
-bindsym $mod+d exec --no-startup-id rofi -show run -lines 5 -eh 1 -bw 0 -hlbg "#212121" -hlfg "#cccccc"
+bindsym $winkey+d exec --no-startup-id rofi -show run -lines 5 -eh 1 -bw 2
 # lock the screen
 bindsym $winkey+l exec i3lock --color=212121
 
@@ -78,11 +78,11 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # workspace aliases
-set $ws1 "1: "
-set $ws2 "2: "
-set $ws3 "3: "
-set $ws4 "4: "
-set $ws5 "5: "
+set $ws1 ""
+set $ws2 ""
+set $ws3 ""
+set $ws4 ""
+set $ws5 ""
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -128,7 +128,7 @@ for_window [class="^.*"] border pixel 1
 gaps inner 20
 gaps outer 0
 
-#smart_gaps on
+smart_gaps on
 smart_borders on
 
 # exit i3 (logs you out of your X session)
@@ -160,16 +160,35 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+
+# class                 border  bground text    indicator child_border
+client.focused          #CCB080 #212121 #E9E9E9 #CCB080   #CCB080
+client.focused_inactive #212121 #212121 #888888 #212121   #212121
+client.unfocused        #212121 #212121 #E9E9E9 #212121   #212121
+client.urgent           #CC8B81 #212121 #CC8B81 #CC8B81   #CC8B81
+client.placeholder      #819CCC #212121 #819CCC #212121   #212121
+
+client.background       #212121
+
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
+
 bar {
-        status_command i3status -c ~/.config/i3/i3status.conf
-        position top
-        colors {
-            background #212121
-            separator #212121
-        }
+    status_command i3status -c ~/.config/i3/i3status.conf
+    position top
+    colors {
+        background #212121
+        statusline #E9E9E9
+        separator  #212121
+
+        focused_workspace  #CCB080 #212121 #CCB080
+        active_workspace   #212121 #212121 #E9E9E9
+        inactive_workspace #212121 #212121 #888888
+        urgent_workspace   #CC8B81 #212121 #CC8B81
+        binding_mode       #212121 #212121 #E9E9E9
+    }
 }
+
 
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallpaper.jpg
 
