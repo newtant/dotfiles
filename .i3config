@@ -81,8 +81,8 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # workspace aliases
-set $ws1 ""
-set $ws2 ""
+set $ws1 ""
+set $ws2 ""
 set $ws3 ""
 set $ws4 ""
 set $ws5 ""
