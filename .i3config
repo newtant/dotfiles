@@ -11,6 +11,7 @@
 
 # Reload previous brightness setting (50%)
 exec --no-startup-id light -I
+exec --no-startup-id pactl set-sink-mute 0 0
 
 set $mod Mod1
 set $winkey Mod4
