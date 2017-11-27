@@ -132,7 +132,8 @@ for_window [class="^.*"] border pixel 1
 gaps inner 20
 gaps outer 0
 
-smart_gaps on
+# smart_gaps off throws an error, so comment that out if desired
+#smart_gaps on
 smart_borders on
 
 # exit i3 (logs you out of your X session)
@@ -166,7 +167,7 @@ bindsym $mod+r mode "resize"
 
 
 # class                 border  bground text    indicator child_border
-client.focused          #CCB080 #212121 #E9E9E9 #CCB080   #CCB080
+client.focused          #1793D1 #212121 #E9E9E9 #1793D1   #1793D1
 client.focused_inactive #212121 #212121 #888888 #212121   #212121
 client.unfocused        #212121 #212121 #E9E9E9 #212121   #212121
 client.urgent           #CC8B81 #212121 #CC8B81 #CC8B81   #CC8B81
@@ -185,7 +186,7 @@ bar {
         statusline #E9E9E9
         separator  #212121
 
-        focused_workspace  #CCB080 #212121 #CCB080
+        focused_workspace  #1793D1 #212121 #1793D1
         active_workspace   #212121 #212121 #E9E9E9
         inactive_workspace #212121 #212121 #888888
         urgent_workspace   #CC8B81 #212121 #CC8B81
