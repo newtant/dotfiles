@@ -1,7 +1,12 @@
 set nocompatible "vim settings, not vi settings
 
-syntax on " enable syntax
-set number " line numbers
+" enable syntax
+syntax on
+
+" line numbers
+set number
+
+set clipboard+=unnamedplus
 set backspace=indent,eol,start
 set hidden
 
@@ -13,6 +18,7 @@ set showmode
 set showcmd
 set report=0
 set laststatus=2
+
 "set cursorline
 set background=dark
 
