@@ -26,4 +26,4 @@ Xft.lcdfilter: lcddefault
 
 ! colors
 #include "/home/newtant/dotfiles/colors/urxvt"
-#include "/home/newtant/dotfiles/.rofi"
+#include "/home/newtant/dotfiles/rofi.conf"
