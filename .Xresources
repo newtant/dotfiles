@@ -25,5 +25,5 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 
 ! colors
-#include "/home/newtant/dotfiles/colors/urxvt"
+#include "/home/newtant/dotfiles/colors/colors"
 #include "/home/newtant/dotfiles/rofi.conf"
