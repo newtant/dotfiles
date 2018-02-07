@@ -9,7 +9,7 @@ URxvt*depth: 32
 
 ! font config
 !URxvt*letterSpace: -1
-URxvt*font: xft:Noto Sans Mono:style=regular:size=12,xft:FontAwesome5Free:size=12
+URxvt*font: xft:Go Mono:style=regular:size=12,xft:FontAwesome5Free:size=10
 URxvt*allow_bold: false
 
 Xft.dpi: 96
