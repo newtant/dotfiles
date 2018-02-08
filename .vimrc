@@ -1,3 +1,4 @@
+"vim settings, not vi settings
 set nocompatible "vim settings, not vi settings
 
 " enable syntax
