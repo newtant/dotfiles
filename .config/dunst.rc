@@ -36,17 +36,17 @@
     history = ctrl+shift
  
 [urgency_low]
-    background = "#222222"
+    background = "#181818"
     foreground = "#e9e9e9"
     timeout = 5
  
 [urgency_normal]
-    background = "#222222"
+    background = "#181818"
     foreground = "#e9e9e9"
     timeout = 5
  
 [urgency_critical]
-    background = "#222222"
+    background = "#181818"
     foreground = "#e9e9e9"
     timeout = 5
  
