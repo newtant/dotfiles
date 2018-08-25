@@ -31,10 +31,10 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
-bindsym $winkey+d exec --no-startup-id rofi -show run
+bindsym $mod+space exec --no-startup-id rofi -show run
 
 # lock the screen
-bindsym $winkey+l exec --no-startup-id i3lock --color=222222
+bindsym $winkey+l exec --no-startup-id i3lock --color=1c1818
 
 # change focus
 bindsym $mod+j focus left
@@ -74,7 +74,7 @@ bindsym $mod+e layout toggle split
 bindsym $mod+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+#bindsym $mod+space focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -168,17 +168,16 @@ bindsym $mod+r mode "resize"
 
 
 # class                 border  bground text    indicator child_border
-client.focused          #1793D1 #222222 #E9E9E9 #1793D1   #1793D1
-client.focused_inactive #222222 #222222 #888888 #222222   #222222
-client.unfocused        #222222 #222222 #E9E9E9 #222222   #222222
-client.urgent           #CC8B81 #222222 #CC8B81 #CC8B81   #CC8B81
+client.focused          #c0a286 #1c1818 #E9E9E9 #c0a286   #c0a286
+client.focused_inactive #1c1818 #1c1818 #888888 #1c1818   #1c1818
+client.unfocused        #1c1818 #1c1818 #E9E9E9 #1c1818   #1c1818
+client.urgent           #CC8B81 #1c1818 #CC8B81 #CC8B81   #CC8B81
 
-client.background       #222222
+client.background       #1c1818
 
-exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallpaper.jpg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/wallpapers/wallpaper
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec --no-startup-id redshift
-exec --no-startup-id mconnect -d
 
 # Pulse Audio keybinds
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 0 +10%

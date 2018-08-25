@@ -1,6 +1,6 @@
 [global]
     font = go mono 10
-    allow_markup = yes
+    markup = yes
     format = "%s\n%b"
     sort = yes
     indicate_hidden = yes
@@ -23,10 +23,10 @@
     startup_notification = false
     show_indicators = no
     icon_position = left
-    icon_folders = /usr/share/icons/Notifications
+    icon_path = /usr/share/icons/Notifications
  
 [frame]
-    color = "#e9e9e9"
+    color = "#c0a286"
     width = 0
  
 [shortcuts]
@@ -36,18 +36,18 @@
     history = ctrl+shift
  
 [urgency_low]
-    background = "#181818"
-    foreground = "#e9e9e9"
+    background = "#1c1818"
+    foreground = "#c0a286"
     timeout = 5
  
 [urgency_normal]
-    background = "#181818"
-    foreground = "#e9e9e9"
+    background = "#1c1818"
+    foreground = "#c0a286"
     timeout = 5
  
 [urgency_critical]
-    background = "#181818"
-    foreground = "#e9e9e9"
+    background = "#1c1818"
+    foreground = "#c0a286"
     timeout = 5
  
 [Discord]
