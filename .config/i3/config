@@ -189,3 +189,4 @@ bindsym XF86AudioMute exec --no-startup-id pactl -- set-sink-mute 0 toggle
 bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle
+bind 107 exec scrot '%Y%m%d%H%M.png' -e 'mv $f ~/Pictures/screenshots/'
