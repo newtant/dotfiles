@@ -134,7 +134,7 @@ gaps inner 20
 gaps outer 0
 
 # smart_gaps off throws an error, so comment that out if desired
-#smart_gaps on
+smart_gaps on
 smart_borders on
 
 # exit i3 (logs you out of your X session)
