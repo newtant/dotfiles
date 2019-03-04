@@ -8,9 +8,8 @@ URxvt*iso14755: false
 URxvt*depth: 32
 
 ! font config
-URxvt*letterSpace: 0
-!URxvt*font: xft:Go Mono:style=regular:size=14,xft:FontAwesome5Free:size=10
-URxvt*font: xft:Go Mono:style=regular:size=12,xft:Wuncon Siji:size=10
+!URxvt*letterSpace: -1
+URxvt*font: xft:Go Mono:style=regular:size=12,xft:FontAwesome5Free:size=10
 URxvt*imFont: xft:Go Mono:style=regular:size=12
 URxvt*boldFont: xft:Go Mono:style=bold:size=12
 URxvt*italicFont: xft:Go Mono:style=italic:size=12
