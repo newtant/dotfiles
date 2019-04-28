@@ -128,7 +128,7 @@ bindsym $mod+Shift+r restart
 ##################
 
 # disable window titlebars
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 
 gaps inner 20
 gaps outer 0
@@ -148,10 +148,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym semicolon resize shrink width 10 px or 10 ppt
+        bindsym l resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym j resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -168,7 +168,7 @@ bindsym $mod+r mode "resize"
 
 
 # class                 border  bground text    indicator child_border
-client.focused          #e9e9e9 #282828 #e9e9e9 #282828   #282828
+client.focused          #e9e9e9 #282828 #e9e9e9 #282828   #e9e9e9
 client.focused_inactive #282828 #282828 #888888 #282828   #282828
 client.unfocused        #282828 #282828 #e9e9e9 #282828   #282828
 client.urgent           #CC8B81 #282828 #CC8B81 #CC8B81   #CC8B81
@@ -190,4 +190,6 @@ bindsym XF86MonBrightnessUp exec --no-startup-id light -A 10
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 10
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle
 #bind --release 107 exec --no-startup-id scrot '%Y%m%d%H%M.png' -e 'mv $f ~/Pictures/screenshots/'
-bind --release 107 exec --no-startup-id maim ~/Pictures/screenshots/$(date +%Y%m%d-%H%M%S).png
+bind --release 107 exec --no-startup-id /bin/bash /home/newtant/dotfiles/scripts/screenshot-window.sh
+bind --release $mod+107 exec --no-startup-id /bin/bash /home/newtant/dotfiles/scripts/screenshot-desktop.sh
+bind --release Control+107 exec --no-startup-id /bin/bash /home/newtant/dotfiles/scripts/screenshot-region.sh
