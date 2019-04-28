@@ -1,6 +1,8 @@
 "vim settings, not vi settings
 set nocompatible "vim settings, not vi settings
 
+set encoding=utf-8
+
 " enable syntax
 syntax on
 
