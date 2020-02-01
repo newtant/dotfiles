@@ -194,3 +194,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute 1 toggle
 bind --release 107 exec --no-startup-id /bin/bash /home/newtant/dotfiles/scripts/screenshot-window.sh
 bind --release $mod+107 exec --no-startup-id /bin/bash /home/newtant/dotfiles/scripts/screenshot-desktop.sh
 bind --release Control+107 exec --no-startup-id /bin/bash /home/newtant/dotfiles/scripts/screenshot-region.sh
+
+# Window Rules
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="page-info"] floating enable
+for_window [title="KeePassXC"] floating enable
